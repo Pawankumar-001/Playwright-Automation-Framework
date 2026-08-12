@@ -64,6 +64,7 @@ test("TC_001", async ({ page }) => {
    await page.waitForTimeout(10000);
    let newWindowURL = await organizationPage.getNewWindowUrl();
    console.log("new page url - ", newWindowURL);
+    console.log("happy hacking")
 
 
 
